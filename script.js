@@ -5,5 +5,5 @@ var a = document.getElementById("url");
        var nameValue = document.getElementById("name").value;
        var year = document.getElementById("year").name;
        var yearValue = document.getElementById("year").value;
-       a.innerHTML = a.innerHTML+name+nameValue+year+yearValue;
+        a.innerHTML = a.innerHTML+"?"+name+"="+nameValue+"&"+year+"="+yearValue;
      }
